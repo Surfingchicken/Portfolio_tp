@@ -2,9 +2,12 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 html{
     font-family: 'Roboto', sans-serif;
+    font-weight: normal;
+    font-size: 100%;
     background-color: #F5F5F5;
 }
 h1,h2{
@@ -13,14 +16,14 @@ h1,h2{
 }
 div {
     margin: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
 
 }
 section{
     margin: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
+    margin-right: 8%;
     text-align: center;
 }
 div>ul{
@@ -40,18 +43,17 @@ section>img{
     max-width: 100%;
 }
 h1{
-    padding-top: 10px;
-    padding-bottom: 10px;
+    padding: 20px;
     text-align: center;
 
 }
-h1>img{
+.logo{
     height: 44px;
-    width: 44px;
-    float: left;
-    padding-left: 2.5%;
-
-}
+    width: 56px;
+    margin-left: 1%;
+    background-color: #ABABF5;
+    position: absolute;left: 15px; top: 45px;
+}   
 h2{
     padding: 5px;
     text-align: left;
@@ -59,22 +61,25 @@ h2{
 h3{
     text-align: left;
     background-color: #d3d3d3; 
-    font-size: small;
+    font-size: medium;
     padding: 5px 0 5px 1%;
     font-weight: bold;
 }
-nav {
+nav{
     background-color: #000;
     color: #fff;
     padding-left: 3%;
     margin-top: 2px;
+    
+}
+nav li:hover{
+    background-color: #404040 ;
 }
 nav>ul{ 
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
 }
 nav>ul>li{
     float: left;
@@ -87,4 +92,5 @@ li a {
 }
 footer{
     text-align: center;
+    font-weight: bold;
 }
