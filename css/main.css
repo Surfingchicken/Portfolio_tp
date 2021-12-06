@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+/*reset*/
 *{
     margin: 0;
     padding: 0;
@@ -14,14 +15,14 @@ h1,h2{
     background-color:#008b8b;
     color: #fff;
 }
+/*content*/
 div {
-    margin: 20px;
+    margin: 2%;
     margin-left: 8%;
     margin-right: 8%;
-
 }
 section{
-    margin: 20px;
+    margin: 2%;
     margin-left: 8%;
     margin-right: 8%;
     text-align: center;
@@ -30,47 +31,46 @@ div>ul{
     border-style: solid;
     border-width: 1px;
     list-style-type: none;
-    margin-top: 20px;
+    margin-top: 2%;
     padding: 5%;
     background-color: #fff;
-
-    
 }
 section>img{
     height: 100px;
     width: 100px;
     padding: 5%;
+    padding-bottom: 0;
     max-width: 100%;
 }
+/*header*/
 h1{
-    padding: 20px;
+    padding: 2%;
     text-align: center;
-
 }
 .logo{
     height: 44px;
     width: 56px;
     margin-left: 1%;
     background-color: #ABABF5;
-    position: absolute;left: 15px; top: 45px;
+    position: absolute;left: 1.5%; top: 7.5%;
 }   
 h2{
-    padding: 5px;
+    padding: 1%;
     text-align: left;
 }
 h3{
     text-align: left;
     background-color: #d3d3d3; 
     font-size: medium;
-    padding: 5px 0 5px 1%;
+    padding: 0.5% 0 0.5% 0.5%;
     font-weight: bold;
 }
+/*nav bar*/
 nav{
     background-color: #000;
     color: #fff;
     padding-left: 3%;
-    margin-top: 2px;
-    
+    margin-top: 2px;   
 }
 nav li:hover{
     background-color: #404040 ;
@@ -85,12 +85,15 @@ nav>ul>li{
     float: left;
 }
 li a {
-    display: block;
+    display: inline-block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
 }
+/*footer*/
 footer{
     text-align: center;
     font-weight: bold;
+    padding-top: 6% ;
+    padding-bottom: 3%;
 }
