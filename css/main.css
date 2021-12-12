@@ -3,7 +3,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 html{
     font-family: 'Roboto', sans-serif;
@@ -27,32 +26,33 @@ section{
     margin-right: 8%;
     text-align: center;
 }
-div>ul{
+div>ul,p{
     border-style: solid;
     border-width: 1px;
     list-style-type: none;
     margin-top: 2%;
-    padding: 5%;
+    padding: 2.5%;
     background-color: #fff;
+    overflow: hidden;
 }
 section>img{
     height: 100px;
     width: 100px;
-    padding: 5%;
-    padding-bottom: 0;
+    margin: 5%;
     max-width: 100%;
+    white-space: nowrap;
 }
 /*header*/
 h1{
     padding: 2%;
     text-align: center;
+    height: 44px;
 }
 .logo{
     height: 44px;
     width: 56px;
-    margin-left: 1%;
     background-color: #ABABF5;
-    position: absolute;left: 1.5%; top: 7.5%;
+    float: left;
 }   
 h2{
     padding: 1%;
@@ -70,7 +70,6 @@ nav{
     background-color: #000;
     color: #fff;
     padding-left: 3%;
-    margin-top: 2px;   
 }
 nav li:hover{
     background-color: #404040 ;
@@ -85,7 +84,7 @@ nav>ul>li{
     float: left;
 }
 li a {
-    display: inline-block;
+    display: block;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -94,6 +93,8 @@ li a {
 footer{
     text-align: center;
     font-weight: bold;
-    padding-top: 6% ;
-    padding-bottom: 3%;
+    margin-top: 6% ;
+    margin-bottom: 3%;
+    margin-left: 30%;
+    margin-right: 30%;
 }
