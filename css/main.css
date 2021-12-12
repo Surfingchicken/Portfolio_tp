@@ -70,6 +70,9 @@ nav{
     background-color: #000;
     color: #fff;
     padding-left: 3%;
+    margin-top: 2px;
+    position: sticky;
+    top: 0;
 }
 nav li:hover{
     background-color: #404040 ;
