@@ -1,103 +1,111 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 /*reset*/
 *{
     margin: 0;
     padding: 0;
 }
 html{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Courier new', monospace;
     font-weight: normal;
     font-size: 100%;
-    background-color: #F5F5F5;
-}
-h1,h2{
-    background-color:#008b8b;
-    color: #fff;
+    background-color: #000;
+    color: #ffffff;
 }
 /*content*/
-div {
-    margin: 2%;
-    margin-left: 8%;
-    margin-right: 8%;
+body{
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
 }
-section{
-    margin: 2%;
+div {
+    border: solid;
+    border-radius: 10px;
+    margin: 5%;
     margin-left: 8%;
     margin-right: 8%;
+    padding: 1%;
+}
+
+div>ul,p{
+    list-style:inside;
+    list-style-type: square ;
+    text-align: left;
+}
+.logi{
     text-align: center;
 }
-div>ul,p{
-    border-style: solid;
-    border-width: 1px;
-    list-style-type: none;
-    margin-top: 2%;
-    padding: 2.5%;
-    background-color: #fff;
-    overflow: hidden;
-}
-section>img{
-    height: 100px;
-    width: 100px;
-    margin: 5%;
-    max-width: 100%;
-    white-space: nowrap;
+.logi>img{
+    width: 10%;
+    padding: 5%;
+    max-width: 10vw;
+    height: auto;
+    filter:grayscale(100%);
 }
 /*header*/
 h1{
-    padding: 2%;
     text-align: center;
-    height: 44px;
+    margin: 3%;
 }
 .logo{
     height: 44px;
     width: 56px;
-    background-color: #ABABF5;
-    float: left;
+    color: #fff;
 }   
 h2{
     padding: 1%;
     text-align: left;
+    text-decoration: underline;
 }
 h3{
-    text-align: left;
-    background-color: #d3d3d3; 
+    text-align: left; 
     font-size: medium;
-    padding: 0.5% 0 0.5% 0.5%;
     font-weight: bold;
+}
+h3 a {
+    text-decoration: none;
+    color: #fff;
+}
+h3 a:hover{
+    color: springgreen;
 }
 /*nav bar*/
 nav{
-    background-color: #000;
     color: #fff;
-    padding-left: 3%;
-    margin-top: 2px;
     position: sticky;
     top: 0;
+    max-width: 100%;
 }
-nav li:hover{
-    background-color: #404040 ;
+nav ul :hover{
+    list-style-type: circle; 
+    color: red;
 }
 nav>ul{ 
-    list-style-type: none;
+    list-style: inside;
+    list-style-type: square;
     margin: 0;
     padding: 0;
     overflow: hidden;
+    display: block;
+
 }
 nav>ul>li{
-    float: left;
+    float: right;
+    padding: 0 2% 0 2%;
+   
 }
 li a {
     display: block;
-    color: white;
-    padding: 14px 16px;
     text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 2;
+
 }
 /*footer*/
 footer{
     text-align: center;
     font-weight: bold;
     margin-top: 6% ;
-    margin-bottom: 3%;
+    padding-bottom: 5%;
     margin-left: 30%;
     margin-right: 30%;
 }
