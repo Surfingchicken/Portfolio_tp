@@ -90,9 +90,8 @@ nav{
 nav ul{ 
     text-align:left;
     margin: 0;
-    width: 100%;
+    width: auto;
     padding: 2%;
-    overflow: scroll;
 }
 nav ul li{
     display: table-cell;
@@ -109,7 +108,7 @@ footer{
     text-align: center;
     font-weight: bold;
     margin-top: 6% ;
-    padding-bottom: 0.3em;
+    padding-bottom: 0.3rem;
     margin-left: 30%;
     margin-right: 30%;
 }
@@ -118,3 +117,14 @@ footer a {
     font-weight: normal;
 }
 
+@media screen and (max-width: 80.0rem){
+    main,footer{
+        margin:.1rem;
+    }
+    nav{
+        width: 80vw;
+    }
+    nav,div,footer{
+        text-align: justify;
+    }
+}
