@@ -84,13 +84,12 @@ h3{
 /*nav bar*/
 nav{
     color: #fff;
-    display: block;
     margin-bottom: 2%;
 }
 nav ul{ 
     text-align:left;
-    margin: 0;
-    width: auto;
+    margin: 2rem auto;
+    max-width: 100rem;
     padding: 2%;
 }
 nav ul li{
@@ -117,14 +116,57 @@ footer a {
     font-weight: normal;
 }
 
-@media screen and (max-width: 80.0rem){
-    main,footer{
-        margin:.1rem;
+@media screen and (max-width: 60rem){
+    body, div, section{
+        margin: 0 1%;
     }
-    nav{
-        width: 80vw;
+    .siding{
+        display:block; 
+        margin: 0 1%;
     }
-    nav,div,footer{
+    header h1{
+        font-size: large;
+    }
+    main{
+        margin-top: .1rem;
+    }
+    main div, .sided{
+        margin-bottom: .8rem;
+    }
+    div p{
         text-align: justify;
     }
+    div h2{
+        font-size: large;
+    }
+    nav ul{
+        overflow: hidden;
+        white-space:pre-line;
+    }
+    nav ul li{
+        text-align: left;
+    }
 }
+@media screen and (orientation: landscape){
+    main section ul{
+        padding: 1rem;     
+    }
+    header h1{
+        font-size: xx-large;
+    }
+    nav ul{
+        padding: 0;
+    }
+    nav ul li{
+        text-align: center;
+    }
+    aside ul li p{
+        overflow:inherit;
+        text-overflow:inherit;
+        padding-right: 1%;
+        white-space:inherit;
+        width: 100%;
+        
+    }
+    
+}   
