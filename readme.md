@@ -1,2 +1,2 @@
 Portfolio Alexandre Delfino:
-[ici](https://github.com/Surfingchicken/Portfolio_tp.git)
+[ici](https://surfingchicken.github.io/Portfolio_tp/)
