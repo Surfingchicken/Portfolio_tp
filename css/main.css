@@ -20,6 +20,9 @@ h1, h2, h3, h4{
 }
 body{
     font: 1.6rem sans-serif;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(../asset/878.jpg);
+
 }
 * a {
     text-decoration: none;
@@ -153,9 +156,6 @@ footer a {
     }
     header h1{
         font-size: xx-large;
-    }
-    nav ul{
-        white-space: nowrap;
     }
     nav ul li{
         text-align: left;
