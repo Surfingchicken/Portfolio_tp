@@ -9,7 +9,7 @@ html{
     font-weight: normal;
     font-size: 62.5%;
     background-color: #000;
-    color: #ffffff;
+    color: #C0C0C0;
 }
 ul, ol, figure{
     margin: 0;
@@ -23,10 +23,10 @@ body{
 }
 * a {
     text-decoration: none;
-    color: #fff;
+    color: #C0C0C0;
 }
 * a:hover{
-    background-color: gray;
+    background-color: #2F4F4f;
 }
 /*content*/
 
@@ -83,12 +83,10 @@ h3{
 }
 /*nav bar*/
 nav{
-    color: #fff;
     margin-bottom: 2%;
 }
 nav ul{ 
     text-align:left;
-    margin: 2rem auto;
     max-width: 100rem;
     padding: 2%;
 }
@@ -99,8 +97,7 @@ nav ul li{
 
 li a {
     text-decoration: none;
-    color: rgb(255, 255, 255);
-    padding: 0.3rem;
+    color: #C0C0C0;
 }
 /*footer*/
 footer{
@@ -115,8 +112,8 @@ footer a {
     float: right;
     font-weight: normal;
 }
-
-@media screen and (max-width: 60rem){
+/*responsive*/
+@media screen and (max-width: 70rem){
     body, div, .siding{
         margin: 0 1%;
     }
@@ -124,7 +121,7 @@ footer a {
         margin-right: 0;
     }
     .siding{
-        display:block; 
+        display:block;
     }
     header h1{
         font-size: large;
@@ -142,24 +139,26 @@ footer a {
         font-size: large;
     }
     nav ul{
-        overflow: hidden;
-        white-space:pre-line;
+        white-space:normal;
+        overflow: scroll;
     }
     nav ul li{
         text-align: left;
+        padding: 0.3rem;
     }
 }
 @media screen and (orientation: landscape){
-    main section ul{
+    main div ul{
         padding: 1rem;     
     }
     header h1{
         font-size: xx-large;
     }
     nav ul{
-        padding: 0;
+        white-space: nowrap;
     }
     nav ul li{
-        text-align: center;
+        text-align: left;
+        padding: 0.5rem;
     }    
 }   
