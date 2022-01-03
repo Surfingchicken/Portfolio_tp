@@ -117,12 +117,14 @@ footer a {
 }
 
 @media screen and (max-width: 60rem){
-    body, div, section{
+    body, div, .siding{
         margin: 0 1%;
+    }
+    .sided:first-child{
+        margin-right: 0;
     }
     .siding{
         display:block; 
-        margin: 0 1%;
     }
     header h1{
         font-size: large;
