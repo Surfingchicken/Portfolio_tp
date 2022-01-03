@@ -159,14 +159,5 @@ footer a {
     }
     nav ul li{
         text-align: center;
-    }
-    aside ul li p{
-        overflow:inherit;
-        text-overflow:inherit;
-        padding-right: 1%;
-        white-space:inherit;
-        width: 100%;
-        
-    }
-    
+    }    
 }   
